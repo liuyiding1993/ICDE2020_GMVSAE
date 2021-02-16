@@ -14,9 +14,9 @@ The processed data files (i.e., <tt>processed_porto_train.csv</tt> and <tt>proce
 
 #### Example of training on Porto dataset:
 ```python
-python run_loop.py --mode=train --cluster_num=5 --num_epochs=5 --gpu_id=0 --model_dir=./ckpt --learning_rate=1e-4 --num_epochs=10 --pretrain_dir=./pretrain
+python run_loop.py --mode=train --cluster_num=5 --num_epochs=5 --gpu_id=0 \ 
+                   --model_dir=./ckpt --learning_rate=1e-4 --num_epochs=10 --pretrain_dir=./pretrain
 ```
-T
 More conveniently, we can run pretraining, training and evaluation via <tt>pretrain.sh</tt>, <tt>train.sh</tt> and <tt>eval.sh</tt>, respectively.
 
 #### Parameters:
